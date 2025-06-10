@@ -51,7 +51,8 @@ git clone https://github.com/your-username/job-application-tracker.git
 cd job-application-tracker
 mvn spring-boot:run
 
-🔧 Example Payload
+
+## 🔧 Example Payload:
 POST /api/jobs
 
 {
@@ -62,7 +63,7 @@ POST /api/jobs
   "dateApplied": "2025-06-08"
 }
 
-📌 Future Enhancements
+##📌 Future Enhancements:
 
     PostgreSQL integration
 
@@ -72,7 +73,7 @@ POST /api/jobs
 
     Email reminders for follow-ups
 
-📄 License
+## 📄 License:
 MIT License — Free to use for personal and educational purposes.
 
 👩‍💻 Author
