@@ -50,11 +50,12 @@ A RESTful backend application built using **Spring Boot** for tracking and manag
 git clone https://github.com/your-username/job-application-tracker.git
 cd job-application-tracker
 mvn spring-boot:run
+```
+## 🔧 Example Payload
 
+**POST** `/api/jobs`
 
-## 🔧 Example Payload:
-POST /api/jobs
-
+```json
 {
   "company": "Google",
   "title": "Software Engineer",
@@ -62,19 +63,22 @@ POST /api/jobs
   "notes": "Referral from a friend",
   "dateApplied": "2025-06-08"
 }
+```
+---
+## 📌 Future Enhancements
 
-##📌 Future Enhancements:
+    ✅ Integrate PostgreSQL for production-ready persistence
 
-    PostgreSQL integration
+    🔐 Implement JWT-based user authentication
 
-    JWT-based authentication
+    🌐 Build a frontend dashboard (React or Angular)
 
-    Frontend dashboard (React or Angular)
-
-    Email reminders for follow-ups
-
+    ✉️ Add email reminders for follow-up deadlines
+---
 ## 📄 License:
 MIT License — Free to use for personal and educational purposes.
 
-👩‍💻 Author
+---
+## 👩‍💻 Author:
+
 Vibha Pandey
